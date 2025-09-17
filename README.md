@@ -1,12 +1,48 @@
-# React + Vite
+Code-to-Speech Frontend project (React + Tailwind)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple React + Tailwind web app that takes code as input,
+converts it into a spoken-friendly format 
+and lets you preview or send it to a Text-to-Speech API for playback
 
-Currently, two official plugins are available:
+<img width="1002" height="467" alt="image" src="https://github.com/user-attachments/assets/55a415aa-b499-4b35-bff7-ea3ab8fa5bcc" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+ Features
+
+🖊 Paste your code and auto-convert symbols to spoken English
+
+"Approve" button to review the converted code
+
+"Run" button to trigger playback 
+
+Clean UI with Tailwind CSS
+
+Installation
+
+Clone the repo
+
+git clone https://github.com/your-username/code-to-speech-frontend.git
+cd code-to-speech-frontend
+
+
+Install dependencies
+
+npm install
+
+Start the dev server
+
+npm run dev
+
+Usage
+
+Paste or type your code in the input area.
+
+Click Approve to convert it into a spoken format.
+
+Click Run to trigger playback 
+
+
+console dot log open parenthesis Hello close parenthesis semicolon 
+close curly bracket

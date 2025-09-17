@@ -31,7 +31,9 @@ export default function App() {
       "/*": " open block comment ",
       "*/": " close block comment ",
       "->": " arrow ",
-      "=>": " fat arrow "
+      "=>": " fat arrow ",
+      '"': " double quote ",
+      "'": " single quote "
     }
 
     let spoken = code;

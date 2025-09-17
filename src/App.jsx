@@ -64,11 +64,15 @@ export default function App() {
            Code to Speech
         </h1>
 
-        <textarea
-          value={code}
-          onChange={(e) => setCode(e.target.value)}
-          className="w-full h-48 p-4 rounded-lg bg-gray-800 text-green-300 font-mono border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400"
-        />
+      <textarea
+    value={code}
+    onChange={(e) => setCode(e.target.value)}
+    className="w-full h-48 p-4 rounded-lg bg-gray-800 text-green-300 font-mono border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400"
+    spellCheck={false}
+    autoCorrect="off"
+    autoCapitalize="off"
+    data-gramm="false"
+      />
 
         <div className="flex justify-center gap-4 mt-6">
           <button
